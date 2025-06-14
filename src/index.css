@@ -63,6 +63,8 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: skyblue;
+    background-color: rgb(226, 222, 222);
+    color: black;
+    border-color: black;
   }
 }

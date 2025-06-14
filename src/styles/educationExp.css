@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.educationExp h2 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 42px;
+}
+
+.showDetails,
+.inputDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputDetails {
+  gap: 5px;
+}
+
+.showSchool {
+  font-size: 32px;
+}
+
+input[name="schoolName"] {
+  font-size: 28px;
+}
+
+.showStudy {
+  font-size: 24px;
+}
+
+input[name="studyTitle"] {
+  font-size: 20px;
+}
+
+.showDate {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[name="startStudyDate"],
+input[name="endStudyDate"] {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.educationExp .infoHeader {
+  display: flex;
+  align-items: center;
+}
+
+.educationExp .addExpBtn {
+  width: 60px;
+  height: 26px;
+  padding: 0;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
