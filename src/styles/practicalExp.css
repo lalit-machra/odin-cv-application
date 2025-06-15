@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.practicalExp h2 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 42px;
+}
+
+.practicalExp .infoHeader {
+  display: flex;
+  align-items: center;
+}
+
+.practicalExp .addPracExpBtn {
+  width: 60px;
+  height: 26px;
+  padding: 0;
+}
+
+.inputExpDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+input[name="title"] {
+  font-size: 30px;
+}
+
+input[name="companyName"] {
+  font-size: 26px;
+}
+
+textarea[name="responsibilities"] {
+  width: 45ch;
+  height: 15ch;
+  font-size: 18px;
+}
+
+input[name="startDate"],
+input[name="endDate"] {
+  font-size: 18px;
+}
+
+.showExpDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.showTitle {
+  font-size: 32px;
+}
+
+.showCompany {
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showResp {
+  font-size: 20px;
+  width: 45ch;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.showExpStartDate,
+.showExpEndDate {
+  font-size: 20px;
+}
+
+.showExpDetails button,
+.inputExpDetails button {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
