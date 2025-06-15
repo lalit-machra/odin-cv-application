@@ -68,3 +68,25 @@ button:focus-visible {
     border-color: black;
   }
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-template-rows: 1fr minmax(1fr, auto);
+  column-gap: 100px;
+}
+
+.generalInfo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.educationExp {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.practicalExp {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}

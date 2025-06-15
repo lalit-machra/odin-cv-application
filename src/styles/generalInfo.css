@@ -6,7 +6,7 @@
 
 label {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .generalInfo h2 {
@@ -24,9 +24,10 @@ label {
   align-items: center;
 }
 
-button {
-  width: 80px;
-  height: 40px;
+.infoHeader button {
+  width: 60px;
+  height: 26px;
+  padding: 0;
 }
 
 .nameTitle,

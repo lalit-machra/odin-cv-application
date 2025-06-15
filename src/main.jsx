@@ -9,8 +9,10 @@ import { default as PracticalExp } from './components/practicalExp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    {/* <GeneralInfo /> */}
-    {/* <EducationExp /> */}
-    <PracticalExp />
+    <div className="container">
+      <GeneralInfo />
+      <EducationExp />
+      <PracticalExp />
+    </div>
   </StrictMode>
 )

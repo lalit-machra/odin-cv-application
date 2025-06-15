@@ -12,7 +12,8 @@ export default function GeneralInfo() {
     <section className="generalInfo">
       <div className="infoHeader">
         <h2>General Information</h2>
-        <button type="button" onClick={() => {
+        <button type="button" style={dataHidden ? {backgroundColor: 'black', color: 'white'} : {}}
+        onClick={() => {
           setDataHidden(!dataHidden);
           setName(document.querySelector(".nameInput").value);
           setEmail(document.querySelector(".emailInput").value);
